@@ -1,23 +1,23 @@
 # Site settings
-email: 
+email:
 baseurl: ""
 paginate: 5
 paginate_path: "/blog/page-:num"
-google_analytics: 
+google_analytics:
 
 # SEO settings
-title: Trophy
-description: 
+title: JA Notes
+description: A quiet place to reflect about tech
 url: ""
-twitter_username: 
-default_img: 
+twitter_username:
+default_img:
 
 # Profile settings
-name: 
-profile_img: 
-profile: 
+name: Jorge Andre
+profile_img: https://scontent.ftpe3-1.fna.fbcdn.net/v/t1.0-9/12143247_10208314082197474_6797702917728691628_n.jpg?oh=bc8511b76273dd698d5ebbc7ccfa05ef&oe=590173DD
+profile: Curious by nature
 social:
-  github: 
+  github: https://github.com/jokandre
 
 # Build settings
 include: ["_categories"]

@@ -18,7 +18,19 @@ Archive Page
 ![Archive Page](https://github.com/thomasvaeth/trophy/blob/master/_screenshots/screenshot-5.png "Desktop screenshot")
 
 ## Installation
-All dependencies are saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
+All dependencies are saved in the ````Gemfile````.
+Run
+````
+bundle install
+````
+(Install [Bundler](http://bundler.io/) if it is not already) after cloning the repo.
+```
+bundle exec jekyll serve --watch
+```
+Generate
+```
+bundle exec jekyll build
+```
 
 ## Edit Theme
 I made everything as easy as possible to edit. Most things can be found in the ````_config.yml````, but if more editing is required digging through the code will be required. The ````head.html```` file is in the ````_includes```` folder and the Sass variables are found in the ````_base.scss```` file in the ````_sass```` folder.
@@ -26,7 +38,7 @@ I made everything as easy as possible to edit. Most things can be found in the `
 ### _config.yml
 
 #### Site Settings
-    email: 
+    email:
     baseurl: ""
     paginate: 5
     paginate_path: "/blog/page-:num"
@@ -39,11 +51,11 @@ I made everything as easy as possible to edit. Most things can be found in the `
 * ````google_analytics```` - Option field to replace with correct Google Analytics code
 
 #### SEO Settings
-    title: 
-    description: 
+    title:
+    description:
     url: ""
-    twitter_username: 
-    default_img: 
+    twitter_username:
+    default_img:
 
 * ````title```` - Title of blog
 * ````description```` - Description of blog (recommended to not go over 160 characters)
@@ -52,11 +64,11 @@ I made everything as easy as possible to edit. Most things can be found in the `
 * ````default_img```` - Image that will appear when posting links on social networks
 
 #### Profile Settings
-    name: 
-    profile_img: 
-    profile: 
+    name:
+    profile_img:
+    profile:
     social:
-      github: 
+      github:
 
 * ````name```` - Full name for SEO purposes
 * ````profile_img```` - Image for the profile card (size to 2000x1200px)
@@ -77,10 +89,10 @@ I made everything as easy as possible to edit. Most things can be found in the `
     ---
     layout: post
     title: ""
-    date: 
+    date:
     categories:
-    description: 
-    image: 
+    description:
+    image:
     image-sm:
     ---
 
